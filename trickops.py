@@ -6,7 +6,7 @@ sys.path.append(sys.argv[1] + "/share/trick/trickops")
 from TrickWorkflow import *
 from WorkflowCommon import Job
 
-# hello world!
+# hello parent!!
 
 class SimTestWorkflow(TrickWorkflow):
     def __init__( self, quiet, trick_top_level ):
